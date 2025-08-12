@@ -1,0 +1,1 @@
+Script to automate new partition creation along with required new datafile and new file group – developed as part of solution implemented to solve performance issue.- TSQL script 
