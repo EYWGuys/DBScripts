@@ -1,0 +1,1 @@
+List SQL features installed – developed for UKPN, when customer was planning to downgrade multiple instances from Enterprise to Standard edition to save cost.- Powershell script

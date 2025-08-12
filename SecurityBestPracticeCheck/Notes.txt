@@ -1,0 +1,1 @@
+Check security  best practices status – Developed to check Air Canada security setting during Audit – TSQL script

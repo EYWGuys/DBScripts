@@ -1,0 +1,1 @@
+Rename SQL server – used in multiple accounts - TSQL script

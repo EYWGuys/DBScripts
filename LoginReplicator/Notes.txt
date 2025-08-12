@@ -1,0 +1,1 @@
+Script to generate script to create SQL logins with same sid and password.

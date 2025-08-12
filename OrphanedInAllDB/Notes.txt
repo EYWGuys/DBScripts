@@ -1,0 +1,1 @@
+Find Orphan user in all DBs – developed for CIBC during CAMPUS environment migration, Used during  AVON Database refresh  - TSQL script

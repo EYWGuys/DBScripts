@@ -1,0 +1,1 @@
+SQL server Assessment (as per MS standard) -Powershell script

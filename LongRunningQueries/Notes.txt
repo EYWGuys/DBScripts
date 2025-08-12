@@ -1,0 +1,1 @@
+currently running tasks to identify long running queries. Developed to meet customer requirement as they need long running query report daily at the start of day.- TSQL script

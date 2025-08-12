@@ -1,0 +1,1 @@
+Recover Sysadmin access to SQL -Powershell script
