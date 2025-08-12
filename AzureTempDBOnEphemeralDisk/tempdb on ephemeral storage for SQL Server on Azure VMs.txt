@@ -1,0 +1,26 @@
+powersell script:
+===============
+$SQLService="SQL Server (MSSQLSERVER)"
+$SQLAgentService="SQL Server Agent (MSSQLSERVER)"
+$tempfolder="D:\tempdb"
+if (!(test-path -path $tempfolder)) {
+    New-Item -ItemType directory -Path $tempfolder
+}
+#Start-Service $SQLService
+#Start-Service $SQLAgentService
+=================save this as C:\Scripts\SQLStartup.ps1
+ 
+steps to deploy it:
+===========
+Create a scheduled task to run above script
+Create a scheduled task to run the PowerShell script at startup. 
+To do this, follow these steps:
+ 
+Open Task Scheduler from the Start menu.
+Under Actions, select Create Basic Task to open the Create Task window.
+On the Create a Basic Task tab, enter a name for the task, such as SQL-startup, and provide a description. Select Next.
+On the Triggers tab, check When the computer starts and select Next.
+On the Actions tab, select Start a program and select Next.
+On the Start a Program tab, n the Program/script box, enter powershell.exe and in the Add arguments (optional) box, enter the path of the script, such as: -ExecutionPolicy Bypass -File C:\Scripts\SQLStartup.ps1.
+ 
+Review the summary on the Finish tab and select Finish to create the task 

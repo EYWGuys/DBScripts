@@ -1,0 +1,1 @@
+Check backup health- Developed to check Air Canada security setting during Audit - TSQL script

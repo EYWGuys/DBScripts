@@ -1,0 +1,1 @@
+Migrate Tempdb to local TEMP SSD (Azure IAAS specific)- Hydro and Air India - TSQL script and Powershell

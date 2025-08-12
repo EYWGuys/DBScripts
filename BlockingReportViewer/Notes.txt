@@ -1,0 +1,1 @@
+Blocking data capture and blocking report viewer- Developed for TATA, as they have blocking issue on multiple servers - TSQL script

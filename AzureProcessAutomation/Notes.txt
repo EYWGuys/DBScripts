@@ -1,0 +1,1 @@
+Azure Process automation script- developed for Atlas to schedule Stored procedure for daily execution – Powershell Script

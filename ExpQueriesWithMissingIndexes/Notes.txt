@@ -1,0 +1,1 @@
+Query to identify queries that cause high CPU usage and that contain at least one missing index in the query plan- developed for tata as this is a regular issue in account on multiple servers. - TSQL script

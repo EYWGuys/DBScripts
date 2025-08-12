@@ -1,0 +1,1 @@
+Historical CPU usage report (based on System Health check extended event) – Developed to meet Tata regular query of CPU usage, but used across multiple account as and when required TSQL script

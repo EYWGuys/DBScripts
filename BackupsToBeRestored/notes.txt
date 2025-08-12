@@ -1,0 +1,1 @@
+List of Backups needs to be Restored along with restore script(based on Backup history metadata) – developed to restore 500+ Transaction log backup files for MWG (later called Excite) account. Same script is used in CIBC and Air India while configuring log shipping.  - TSQL script

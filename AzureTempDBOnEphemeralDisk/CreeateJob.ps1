@@ -1,0 +1,1 @@
+﻿Register-ScheduledTask -TaskName "TASKNAME" -Trigger (New-ScheduledTaskTrigger -Atstartup) -Action (New-ScheduledTaskAction -Execute "${Env:WinDir}\System32\WindowsPowerShell\v1.0\powershell.exe" -Argument "-WindowStyle Hidden -Command `"& 'C:\ps\CreateTempDBPath.ps1'`"") -RunLevel Highest -Force;

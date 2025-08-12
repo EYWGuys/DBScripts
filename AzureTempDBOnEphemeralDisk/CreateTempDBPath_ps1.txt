@@ -1,0 +1,5 @@
+﻿$tempdbpath = "c:\tpsdata\"
+# Check if folder not exists, and create it
+if (-not(Test-Path $tempdbpath -PathType Container)) {
+    New-Item -path $tempdbpath -ItemType Directory
+}
